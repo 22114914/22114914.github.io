@@ -39,7 +39,22 @@ h2 {
 <a href="accessories.htm">Accessories</a> - <a href="apple.htm">Apple</a></p>
 <!-- #BeginEditable "body" -->
 <p>
-<img alt="Mobile phone.jpg" height="195" src="Mobile%20phone.jpg" width="259"><img alt="Mobiles.jpg" height="242" src="Mobile%20phones.jpg" width="208"></p>
+<img alt="Mobile phone.jpg" height="195" src="Mobile_phone.jpg" width="259"><img alt="Mobiles.jpg" height="242" src="Mobile_phones.jpg" width="208"></p>
+<p><script>
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Modified by Stuart Phillips
+//Credit must stay intact for use
+var Digital=new Date()
+var hours=Digital.getHours()
+//Configure message below to your own.
+if (hours>=0&&hours<=12) //MESSAGE FOR MORNING (00:00-11:59)
+document.write('<b>Good Morning, welcome to MWS website.</b>')
+else if (hours>12&&hours<=17) //MESSAGE FOR AFTERNOON (12:01-17:00)
+document.write('<b>Good Afternoon, welcome to MWS website.</b>')
+else //MESSAGE FOR THE REST OF THE DAY (17:00-23:59)
+document.write('<b>Good Evening, welcome to MWS website.</b>')
+</script></p>
 <p>Mobile World Station is more than a phone shop. We offer the best customer 
 support in the UK, the widest range of brands of both, phones and accessesories, 
 and a 24 hours repair service.</p>
